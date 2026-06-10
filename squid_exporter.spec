@@ -10,8 +10,8 @@ License: MIT
 URL:     https://github.com/boynux/squid-exporter
 
 Source0: https://github.com/boynux/squid-exporter/releases/download/v%{version}/squid-exporter-linux-amd64
-Source1: autogen_%{name}.unit
-Source2: autogen_%{name}.default
+Source1: %{name}.unit
+Source2: %{name}.default
 
 %{?systemd_requires}
 Requires(pre): shadow-utils
